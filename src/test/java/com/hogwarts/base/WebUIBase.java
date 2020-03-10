@@ -87,7 +87,7 @@ public abstract class WebUIBase {
     private Properties loadFromEnvProperties(String propFileName) {
         Properties prop = null;
 
-        String path = System.getProperty("user.home");
+        String path = System.getProperty("user.home") + "/fyj-workspace/iSelenium-master/src/test/resources/";
 
         //读入envProperties属性文件
         try {
